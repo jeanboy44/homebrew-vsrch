@@ -5,13 +5,13 @@ class Vsrch < Formula
   version "v0.1.1"
 
   on_macos do
-    url "https://github.com/jeanboy44/vsrch/releases/download/v0.1.1/vsrch-v0.1.1-macos-latest-20260304203811-fe91143.tar.gz"
-    sha256 "90a24d90b4a8e44a50764b659913dbd76e5cc9ee64073706efc4830cc925a1cc"
+    url "https://github.com/jeanboy44/vsrch/releases/download/v0.1.1/vsrch-v0.1.1-macos-latest-20260304220721-3b1aad1.tar.gz"
+    sha256 "245aa9c9ed14cb8c203d35f2acf5a4aee35bc7bcc583753c9122cd5441aa0902"
   end
 
   on_linux do
-    url "https://github.com/jeanboy44/vsrch/releases/download/v0.1.1/vsrch-v0.1.1-ubuntu-latest-20260304203804-fe91143.tar.gz"
-    sha256 "42dcaf3444d582ef050dea32d132a1947af824dbbbbce9f3f110adaaa5d58087"
+    url "https://github.com/jeanboy44/vsrch/releases/download/v0.1.1/vsrch-v0.1.1-ubuntu-latest-20260304220729-3b1aad1.tar.gz"
+    sha256 "c9b0d5b513bed8fae63c9abf3214b6942b909a2a188c97edc63b68929089a73b"
   end
 
   def install
