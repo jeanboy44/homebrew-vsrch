@@ -42,3 +42,21 @@ Each package includes:
 - `data/models` (when packaged with models)
 - `README.md`
 - `INSTALL.md`
+
+## Private repositories
+
+If both repositories are private, you must run Homebrew with a token that can access:
+
+- `homebrew-vsrch` (tap source)
+- `vsrch` release assets
+
+Set the token once:
+
+```bash
+export HOMEBREW_GITHUB_API_TOKEN=ghp_xxx
+```
+
+Notes:
+
+- Keep the token out of `Formula/vsrch.rb`; Homebrew injects auth via environment during fetch.
+- If you cannot guarantee token-based private installation, make release assets public or use a different distribution path.
